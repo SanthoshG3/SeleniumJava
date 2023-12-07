@@ -1,0 +1,11 @@
+ // BrowserSetUp.java
+ ---->Setup of browsers is done in this class.
+ 
+ //Project.java
+ -----> Various functionalities of project are implemented in this class.
+ 
+ //PropertiesFile.java
+ -----> config.properties file invokes inputs from this class.
+ 
+ //config.properties
+ ------> Inputs are give in this file by user.
