@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserSetup extends PropertiesFile {
 	private static WebDriver driver;
-	public static  WebDriver getWebDriver(String browser1){
+	public static  WebDriver getWebDriver(String browser1) throws InterruptedException{
 		
 		/*readProperties();
 		String browser;
@@ -30,6 +30,7 @@ public class BrowserSetup extends PropertiesFile {
 			 
 			driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);//waiting for the browser to load
 			 driver.manage().window().maximize(); //maximizing the browser window
+			 driver.wait(1000);
 			
 		}//getting chrome browser
 		
